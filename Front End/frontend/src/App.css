@@ -1,0 +1,194 @@
+/* Striped red booked slots */
+.booked-slot {
+  background-color: #dc3545 !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.3) 0px,
+    rgba(255, 255, 255, 0.3) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  border: 1px solid #b02a37 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.fc-timegrid-now-indicator-arrow,
+.fc-timegrid-now-indicator-line {
+  display: none !important;
+}
+
+.react-calendar {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.react-calendar__tile {
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.react-calendar__tile--active {
+  background: #007bff;
+  color: white;
+}
+
+.react-calendar__tile:hover {
+  background: #e0f0ff;
+}
+
+.react-calendar__tile--active:hover {
+  background: #0069d9;
+}
+
+/* React Datepicker polished styles */
+
+/* Input styling */
+.react-datepicker__input-container input {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  font-size: 16px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.react-datepicker__input-container input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px #007bffaa;
+}
+
+/* Wrapper spacing to separate from label */
+.react-datepicker-wrapper {
+  margin-top: 6px;
+  display: block;
+}
+
+/* Popup calendar */
+.react-datepicker {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Calendar day tiles */
+.react-datepicker__day {
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+/* Selected day */
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Hover effect on day tiles */
+.react-datepicker__day:hover {
+  background-color: #e0f0ff;
+}
+
+/* Time list items */
+.react-datepicker__time-list-item--selected {
+  background-color: #007bff;
+  color: white;
+}
+
+
+
+.delete-booking-modal .modal-content {
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+  max-width: 400px;
+  margin: auto;
+}
+
+.delete-booking-modal .modal-header {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #dc3545; /* Bootstrap danger red */
+  border-bottom: none;
+}
+
+.delete-booking-modal .modal-body {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.delete-booking-modal .modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.booking-list-modal .modal-content {
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #f9f9f9;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  padding: 20px 30px;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.booking-list-modal .modal-header {
+  border-bottom: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.booking-list-modal .modal-body {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.booking-list-modal .booking-item {
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.booking-list-modal .booking-item:nth-child(odd) {
+  background: #f4f6f8;
+}
+
+.booking-list-modal .booking-info {
+  flex: 1;
+}
+
+.booking-list-modal .booking-item button {
+  margin-left: 15px;
+  min-width: 80px;
+}
+
+/* Footer with centered Close button */
+.booking-list-modal .modal-footer {
+  padding-top: 15px;
+  text-align: center;
+  border: none;
+}
+

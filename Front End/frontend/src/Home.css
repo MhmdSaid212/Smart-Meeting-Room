@@ -1,0 +1,86 @@
+.hero-section {
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  height: 80vh;
+}
+
+.features-section .card {
+  transition: transform 0.3s ease;
+}
+
+.features-section .card:hover {
+  transform: translateY(-5px);
+}
+
+footer.footer {
+  font-size: 14px;
+}
+
+/* Circular meters */
+.circular-chart {
+  display: block;
+  margin: 0 auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  stroke: currentColor;
+  animation: progress 1s ease-out forwards;
+}
+
+.percentage {
+  fill: #333;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0, 100;
+  }
+}
+
+/* Admin Bar */
+.admin-bar {
+  background-color: #343a40;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+/* Circular meters */
+.circular-chart {
+  display: block;
+  margin: 0 auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  stroke: currentColor;
+}
+
+.percentage {
+  fill: #333;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}

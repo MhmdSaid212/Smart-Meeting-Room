@@ -1,0 +1,11 @@
+.auth-container {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.auth-form {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
